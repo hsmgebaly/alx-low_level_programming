@@ -7,7 +7,7 @@
  * @action: pointer to print in regualr or hex
  * Return: void
  **/
-void array_iterator(int *array, size_t size, void (*acction)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
